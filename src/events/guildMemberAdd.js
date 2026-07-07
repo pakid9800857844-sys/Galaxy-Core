@@ -55,7 +55,7 @@ export default {
                     });
                 } else {
                     const embed = new EmbedBuilder()
-                        .setColor(welcomeConfig.welcomeEmbed?.color || getColor('success'))
+                        .setColor(welcomeConfig.welcomeEmbed?.color || getColor('#CBC3E3'))
                         .setTitle(embedTitle)
                         .setDescription(welcomeMessage)
                         .setThumbnail(user.displayAvatarURL())
@@ -114,8 +114,7 @@ export default {
                 data: {
                     title: 'User joined',
                     lines: [
-                        `**User:** ${user.toString()} (${user.displayName !== user.username ? `@${user.displayName}` : user.tag})`,
-                        `**ID:** \`${user.id}\``,
+                        `**User:** ${user.toString()} (${user.displayName !== user.username ? `@${user.displayName}` : user.tag})`, 
                         `**Created:** <t:${Math.floor(user.createdTimestamp / 1000)}:R>`,
                         `**Members:** ${guild.memberCount}`,
                     ],
