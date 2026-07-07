@@ -26,7 +26,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "Made By ItzSpiral",
         // Activity type number (0 = Playing).
-        type: 0,
+        type: ,
       },
     ],
   },
@@ -91,11 +91,11 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#800080",
+      primary: "#CBC3E3",
       secondary: "#2F3136",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#800080",
+      success: "#CBC3E3",
       error: "#ED4245",
       warning: "#FEE75C",
       info: "#3498DB",
