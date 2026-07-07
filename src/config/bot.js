@@ -19,14 +19,14 @@ export const botConfig = {
     // 1 = Streaming
     // 2 = Listening
     // 3 = Watching
-    // 4 = Custom
+    // 4 = Galaxy Aura
     // 5 = Competing
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "Made By ItzSpiral",
         // Activity type number (0 = Playing).
-        type: ,
+        type: 4,
       },
     ],
   },
